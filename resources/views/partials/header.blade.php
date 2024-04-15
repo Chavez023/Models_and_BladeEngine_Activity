@@ -3,7 +3,6 @@
         <h1 class="text-white text-2xl">My Bookstore</h1>
         <ul class="flex space-x-4">
             <li><a href="{{ route('books.index') }}" class="text-white">Books</a></li>
-            <!-- Add more navigation links as needed -->
         </ul>
     </nav>
 </header>
