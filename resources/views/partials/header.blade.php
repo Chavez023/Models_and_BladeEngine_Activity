@@ -1,7 +1,8 @@
-<header>
-    <nav>
-        <ul>
-            <li><a href="{{ route('books.index') }}">Books</a></li>
+<header class="bg-cool-gray-800 py-4">
+    <nav class="container mx-auto flex justify-between items-center">
+        <h1 class="text-white text-2xl">My Bookstore</h1>
+        <ul class="flex space-x-4">
+            <li><a href="{{ route('books.index') }}" class="text-white">Books</a></li>
             <!-- Add more navigation links as needed -->
         </ul>
     </nav>

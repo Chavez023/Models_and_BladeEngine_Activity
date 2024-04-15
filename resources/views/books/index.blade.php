@@ -36,7 +36,6 @@
             </tbody>
         </table>
     </div>
-gi
-
+    @include('partials.footer')
 </body>
 </html>
